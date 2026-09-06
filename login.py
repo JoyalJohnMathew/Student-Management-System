@@ -2,10 +2,10 @@
 
 def login(username, password):
     if username == "admin" and password == "1234":
-        return "Login successful"
-    return "Invalid username or password"
+    print("Welcome, Admin!")"
 
-
+def logout():
+    print("Logged out successfully")
 if __name__ == "__main__":
     username = input("Enter username: ")
     password = input("Enter password: ")
