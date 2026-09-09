@@ -1,7 +1,9 @@
 # Student Management System
 
 def main():
-    print("Welcome to Student Management System - Joyal")
+
+    print("Welcome to Student Management System")
+
 
 
 if __name__ == "__main__":
